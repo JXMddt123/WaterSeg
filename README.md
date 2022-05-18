@@ -3,9 +3,9 @@ Unmanned Surface Vehicles (TIM2022)
 
 Implementation for **[CPWaterSeg](https://ieeexplore.ieee.org/document/9755264)**.
 
-![fig2](D:\doctor\2020春季新学期\文章\draft\TIM\github\figs\fig2.png)
+![fig2](https://github.com/JXMddt123/WaterSeg/blob/master/figs/fig2.png)
 
-![fig3](D:\doctor\2020春季新学期\文章\draft\TIM\github\figs\fig3.png)
+![fig3](https://github.com/JXMddt123/WaterSeg/blob/master/figs/fig3.png)
 
 ## Summary
 
