@@ -1,5 +1,4 @@
-# Collision-Free Waterway Segmentation for Inland
-Unmanned Surface Vehicles (TIM2022)
+# Collision-Free Waterway Segmentation for Inland Unmanned Surface Vehicles
 
 Implementation for **[CPWaterSeg](https://ieeexplore.ieee.org/document/9755264)**.
 
@@ -9,7 +8,11 @@ Implementation for **[CPWaterSeg](https://ieeexplore.ieee.org/document/9755264)*
 
 ## Summary
 
-Accurate detection of passable regions in images is important for ensuring the safe navigation of unmanned surface vehicles, especially in inland waterways with irregular waterlines and various obstacles. However, the existing methods are susceptible to environmental changes and produce high false-positive rates (FPR) for confusable textures and complex edge details. We therefore propose a collision-free waterway segmentation network based on deep learning such that pixel-level classification results can be obtained. The segmentation accuracy for indistinguishable textures is improved by learning the context dependency of features through a modified context prior, and the detail refinement of waterlines and small obstacles is achieved via an asymmetric encoder–decoder structure. To learn the features of waterways as comprehensively as possible, data integration and data augmentation are performed on three public datasets. In addition, a new annotated urban waterway dataset called Dasha River Dataset is proposed and made publicly available. The proposed model is tested and cross validated using multiple inland and maritime water segmentation datasets, the results of which show that the model achieves a superior performance than the current state of art with pixel accuracy (PA) of 97.43% and FPR of 1.37%.
+- Accurate detection of passable regions in images is important for ensuring the safe navigation of unmanned surface vehicles, especially in inland waterways with irregular waterlines and various obstacles. However, the existing methods are susceptible to environmental changes and produce high false-positive rates (FPR) for confusable textures and complex edge details. We therefore propose a collision-free waterway segmentation network based on deep learning such that pixel-level classification results can be obtained. The segmentation accuracy for indistinguishable textures is improved by learning the context dependency of features through a modified context prior, and the detail refinement of waterlines and small obstacles is achieved via an asymmetric encoder–decoder structure. To learn the features of waterways as comprehensively as possible, data integration and data augmentation are performed on three public datasets. In addition, a new annotated urban waterway dataset called Dasha River Dataset is proposed and made publicly available. The proposed model is tested and cross validated using multiple inland and maritime water segmentation datasets, the results of which show that the model achieves a superior performance than the current state of art with pixel accuracy (PA) of 97.43% and FPR of 1.37%.
+
+- A simple version of the core codes has been released. It is based on mmsegmentation. You can integrate the codes into mmseg to run the experiments.
+
+- If you meet some problems, please feel free to contact me at: 19b305001@hit.edu.cn
 
 ## Dataset
 
@@ -21,8 +24,11 @@ The dataset used in this project is available at:
 - [Tampere-WaterSeg](https://etsin.fairdata.fi/dataset/e0c6ef65-6e1e-4739-abe3-0455697df5ab)
 - [ORCA](https://www.orca-tech.cn/datasets)
 
-## News
-- A simple version of the core codes has been released. It is based on mmsegmentation. You can integrate the codes into mmseg to run the experiments.
+
+## Publication
+
+R. Zhou et al., "Collision-Free Waterway Segmentation for Inland Unmanned Surface Vehicles," in IEEE Transactions on Instrumentation and Measurement, doi: [0.1109/TIM.2022.3165803](https://ieeexplore.ieee.org/document/9755264)
+
 
 ## Citation
 
